@@ -395,8 +395,8 @@ def main():
     print(f"Application font set to: {default_font.family()}")
     
     # Set application information
-    app.setApplicationName("Lap Timer")
-    app.setApplicationVersion("1.0")
+    app.setApplicationName("Simple Lap-Time Recorder")
+    app.setApplicationVersion("0.1.0")
     app.setOrganizationName("LapTimer")
     print("Application information set")
     
