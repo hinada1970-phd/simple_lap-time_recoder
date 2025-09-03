@@ -1,7 +1,7 @@
 [project]
 name = "simple_lap-time_recorder"
 version = "0.1.0"
-description = "A simple lap-time recorder. Number keys bind to time stamp and are recorded."
+description = "A simple lap-time recorder. Number keys bind to time stamp, and lap times are recorded."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
