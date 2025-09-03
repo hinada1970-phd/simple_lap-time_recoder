@@ -1,4 +1,4 @@
-# Simple Lap-Time Recorder (PySide6)
+# Simple Lap-Time Recorder
 
 A lightweight lap-timing desktop app built with **PySide6/Qt**. Start/stop with the spacebar, record laps with number keys (0–9), reset with Esc, and save results to CSV with S.
 
