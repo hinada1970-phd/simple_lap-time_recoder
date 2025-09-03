@@ -93,6 +93,7 @@ Notes:
 .
 ├── symple_lap-time_recorder.py   # Main application (PySide6)
 └── README.md                     # This file
+└── LICENSE.md                    # Licence file
 ```
 
 Key components inside the script:
