@@ -136,7 +136,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Roadmap
 - Split UI and logic layers
-- Add split/sector deltas and best‑lap highlighting
 - Import/export JSON session files
 - Theming and high‑contrast mode
 - Build standalone app bundles (macOS `.app`, Windows `.exe`) using PyInstaller
