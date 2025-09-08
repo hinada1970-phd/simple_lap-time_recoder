@@ -374,13 +374,10 @@ def main():
     app = QApplication(sys.argv)
     print("QApplication created")
     
-    # Set default application font to avoid font warnings
+    # Set default application font
     default_font = QFont("Arial")
     if not default_font.exactMatch():
-        # Fallback to system default fonts
-        default_font = QFont("Arial")
-        if not default_font.exactMatch():
-            default_font = QFont()  # Use system default
+        default_font = QFont()  # Use system default
     
     app.setFont(default_font)
     print(f"Application font set to: {default_font.family()}")
@@ -388,7 +385,6 @@ def main():
     # Set application information
     app.setApplicationName("Simple Lap-Time Recorder")
     app.setApplicationVersion("0.1.0")
-    app.setOrganizationName("LapTimer")
     print("Application information set")
     
     # Create main window
