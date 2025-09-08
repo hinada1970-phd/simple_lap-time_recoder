@@ -205,15 +205,6 @@ class LapTimerApp(QMainWindow):
             num_shortcut[f'var{i}'] = QShortcut(QKeySequence(str(i)), self)
             num_shortcut[f'var{i}'].activated.connect(lambda num=i: self.record_lap(num))
     
-    def center_window(self):
-        """Center window on screen"""
-        screen = QApplication.primaryScreen()
-        screen_geometry = screen.availableGeometry()
-        window_geometry = self.frameGeometry()
-        center_point = screen_geometry.center()
-        window_geometry.moveCenter(center_point)
-        self.move(window_geometry.topLeft())
-    
     def toggle_timer(self):
         """Toggle timer start/stop"""
         if not self.is_running:
